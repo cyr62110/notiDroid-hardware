@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="6.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="BLE112">
+<rectangle x1="0" y1="0" x2="12" y2="18.1" layer="21"/>
+<smd name="P1_5" x="0" y="2.2" dx="1.6764" dy="0.8128" layer="1" roundness="50"/>
+<smd name="P0_6" x="12.05" y="2.2" dx="1.6764" dy="0.8128" layer="1" roundness="50"/>
+<smd name="USB-" x="0" y="3.45" dx="1.6764" dy="0.8128" layer="1" roundness="50"/>
+<smd name="P0_5" x="12.05" y="3.45" dx="1.6764" dy="0.8128" layer="1" roundness="50"/>
+<smd name="USB+" x="0" y="4.75" dx="1.6764" dy="0.8128" layer="1" roundness="50"/>
+<smd name="P0_4" x="12.05" y="4.75" dx="1.6764" dy="0.8128" layer="1" roundness="50"/>
+<smd name="GND@2" x="0" y="5.95" dx="1.6764" dy="0.8128" layer="1" roundness="50"/>
+<smd name="P0_3" x="12.05" y="5.95" dx="1.6764" dy="0.8128" layer="1" roundness="50"/>
+<smd name="VDD_USB" x="0" y="7.2" dx="1.6764" dy="0.8128" layer="1" roundness="50"/>
+<smd name="P0_2" x="12.05" y="7.2" dx="1.6764" dy="0.8128" layer="1" roundness="50"/>
+<smd name="P1_6" x="0" y="8.45" dx="1.6764" dy="0.8128" layer="1" roundness="50"/>
+<smd name="P0_1" x="12.05" y="8.45" dx="1.6764" dy="0.8128" layer="1" roundness="50"/>
+<smd name="P1_7" x="0" y="9.7" dx="1.6764" dy="0.8128" layer="1" roundness="50"/>
+<smd name="P2_0" x="0" y="10.95" dx="1.6764" dy="0.8128" layer="1" roundness="50"/>
+<smd name="RESET" x="12.05" y="10.95" dx="1.6764" dy="0.8128" layer="1" roundness="50"/>
+<smd name="P0_0" x="12.05" y="9.7" dx="1.6764" dy="0.8128" layer="1" roundness="50"/>
+<smd name="P2_1" x="0" y="12.2" dx="1.6764" dy="0.8128" layer="1" roundness="50"/>
+<smd name="GND@4" x="12.05" y="12.2" dx="1.6764" dy="0.8128" layer="1" roundness="50"/>
+<smd name="P2_2" x="0" y="13.45" dx="1.6764" dy="0.8128" layer="1" roundness="50"/>
+<smd name="AVDD@2" x="0" y="14.7" dx="1.6764" dy="0.8128" layer="1" roundness="50"/>
+<smd name="AVDD@1" x="0" y="15.95" dx="1.6764" dy="0.8128" layer="1" roundness="50"/>
+<smd name="GND@1" x="0" y="17.2" dx="1.6764" dy="0.8128" layer="1" roundness="50"/>
+<smd name="GND@3" x="10.4" y="0" dx="1.6764" dy="0.8128" layer="1" roundness="50" rot="R90"/>
+<smd name="DVDD" x="9.15" y="0" dx="1.6764" dy="0.8128" layer="1" roundness="50" rot="R90"/>
+<smd name="P0_7" x="7.9" y="0" dx="1.6764" dy="0.8128" layer="1" roundness="50" rot="R90"/>
+<smd name="P1_0" x="6.65" y="0" dx="1.6764" dy="0.8128" layer="1" roundness="50" rot="R90"/>
+<smd name="P1_1" x="5.4" y="0" dx="1.6764" dy="0.8128" layer="1" roundness="50" rot="R90"/>
+<smd name="P1_2" x="4.15" y="0" dx="1.6764" dy="0.8128" layer="1" roundness="50" rot="R90"/>
+<smd name="P1_3" x="2.9" y="0" dx="1.6764" dy="0.8128" layer="1" roundness="50" rot="R90"/>
+<smd name="P1_4" x="1.65" y="0" dx="1.6764" dy="0.8128" layer="1" roundness="50" rot="R90"/>
+</package>
+</packages>
+<symbols>
+<symbol name="BLE112">
+<pin name="P1_4" x="5.08" y="-5.08" length="middle" rot="R90"/>
+<pin name="P1_3" x="7.62" y="-5.08" length="middle" rot="R90"/>
+<pin name="P1_2" x="10.16" y="-5.08" length="middle" rot="R90"/>
+<pin name="P1_1" x="12.7" y="-5.08" length="middle" rot="R90"/>
+<pin name="P1_0" x="15.24" y="-5.08" length="middle" rot="R90"/>
+<pin name="P0_7" x="17.78" y="-5.08" length="middle" rot="R90"/>
+<pin name="DVDD" x="20.32" y="-5.08" length="middle" rot="R90"/>
+<pin name="GND@3" x="22.86" y="-5.08" length="middle" rot="R90"/>
+<pin name="P0_6" x="38.1" y="10.16" length="middle" rot="R180"/>
+<pin name="P0_5" x="38.1" y="12.7" length="middle" rot="R180"/>
+<pin name="P0_4" x="38.1" y="15.24" length="middle" rot="R180"/>
+<pin name="P0_3" x="38.1" y="17.78" length="middle" rot="R180"/>
+<pin name="P0_2" x="38.1" y="20.32" length="middle" rot="R180"/>
+<pin name="P0_1" x="38.1" y="22.86" length="middle" rot="R180"/>
+<pin name="P0_0" x="38.1" y="25.4" length="middle" rot="R180"/>
+<pin name="RESET" x="38.1" y="27.94" length="middle" rot="R180"/>
+<pin name="P$17" x="38.1" y="30.48" length="middle" rot="R180"/>
+<pin name="P1_5" x="-5.08" y="10.16" length="middle"/>
+<pin name="USB-" x="-5.08" y="12.7" length="middle"/>
+<pin name="USB+" x="-5.08" y="15.24" length="middle"/>
+<pin name="GND@2" x="-5.08" y="17.78" length="middle"/>
+<pin name="VDD_USB" x="-5.08" y="20.32" length="middle"/>
+<pin name="P1_6" x="-5.08" y="22.86" length="middle"/>
+<pin name="P1_7" x="-5.08" y="25.4" length="middle"/>
+<pin name="P2_0" x="-5.08" y="27.94" length="middle"/>
+<pin name="P2_1" x="-5.08" y="30.48" length="middle"/>
+<pin name="P2_2" x="-5.08" y="33.02" length="middle"/>
+<pin name="AVDD@2" x="-5.08" y="35.56" length="middle"/>
+<pin name="AVDD@1" x="-5.08" y="38.1" length="middle"/>
+<pin name="GND@1" x="-5.08" y="40.64" length="middle"/>
+<text x="10.16" y="22.86" size="1.27" layer="94">BLE113</text>
+<text x="10.16" y="25.4" size="1.27" layer="95">BLE112</text>
+<rectangle x1="0" y1="0" x2="33.02" y2="43.18" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BLE112">
+<description>The BLE112 is a Bluetooth Smart module targeted for low-power sensors and accessories. It integrates all features required for a Bluetooth Smart application, including Bluetooth radio, software stack, and GATT-based profiles.</description>
+<gates>
+<gate name="G$1" symbol="BLE112" x="-15.24" y="-20.32"/>
+</gates>
+<devices>
+<device name="" package="BLE112">
+<connects>
+<connect gate="G$1" pin="AVDD@1" pad="AVDD@1"/>
+<connect gate="G$1" pin="AVDD@2" pad="AVDD@2"/>
+<connect gate="G$1" pin="DVDD" pad="DVDD"/>
+<connect gate="G$1" pin="GND@1" pad="GND@1"/>
+<connect gate="G$1" pin="GND@2" pad="GND@2"/>
+<connect gate="G$1" pin="GND@3" pad="GND@3"/>
+<connect gate="G$1" pin="P$17" pad="GND@4"/>
+<connect gate="G$1" pin="P0_0" pad="P0_0"/>
+<connect gate="G$1" pin="P0_1" pad="P0_1"/>
+<connect gate="G$1" pin="P0_2" pad="P0_2"/>
+<connect gate="G$1" pin="P0_3" pad="P0_3"/>
+<connect gate="G$1" pin="P0_4" pad="P0_4"/>
+<connect gate="G$1" pin="P0_5" pad="P0_5"/>
+<connect gate="G$1" pin="P0_6" pad="P0_6"/>
+<connect gate="G$1" pin="P0_7" pad="P0_7"/>
+<connect gate="G$1" pin="P1_0" pad="P1_0"/>
+<connect gate="G$1" pin="P1_1" pad="P1_1"/>
+<connect gate="G$1" pin="P1_2" pad="P1_2"/>
+<connect gate="G$1" pin="P1_3" pad="P1_3"/>
+<connect gate="G$1" pin="P1_4" pad="P1_4"/>
+<connect gate="G$1" pin="P1_5" pad="P1_5"/>
+<connect gate="G$1" pin="P1_6" pad="P1_6"/>
+<connect gate="G$1" pin="P1_7" pad="P1_7"/>
+<connect gate="G$1" pin="P2_0" pad="P2_0"/>
+<connect gate="G$1" pin="P2_1" pad="P2_1"/>
+<connect gate="G$1" pin="P2_2" pad="P2_2"/>
+<connect gate="G$1" pin="RESET" pad="RESET"/>
+<connect gate="G$1" pin="USB+" pad="USB+"/>
+<connect gate="G$1" pin="USB-" pad="USB-"/>
+<connect gate="G$1" pin="VDD_USB" pad="VDD_USB"/>
+</connects>
+<technologies>
+<technology name="&quot;"/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
