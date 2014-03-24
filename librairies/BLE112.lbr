@@ -106,39 +106,43 @@
 </packages>
 <symbols>
 <symbol name="BLE112">
-<pin name="P1_4" x="5.08" y="-5.08" length="middle" rot="R90"/>
-<pin name="P1_3" x="7.62" y="-5.08" length="middle" rot="R90"/>
-<pin name="P1_2" x="10.16" y="-5.08" length="middle" rot="R90"/>
-<pin name="P1_1" x="12.7" y="-5.08" length="middle" rot="R90"/>
-<pin name="P1_0" x="15.24" y="-5.08" length="middle" rot="R90"/>
-<pin name="P0_7" x="17.78" y="-5.08" length="middle" rot="R90"/>
-<pin name="DVDD" x="20.32" y="-5.08" length="middle" rot="R90"/>
-<pin name="GND@3" x="22.86" y="-5.08" length="middle" rot="R90"/>
-<pin name="P0_6" x="38.1" y="10.16" length="middle" rot="R180"/>
-<pin name="P0_5" x="38.1" y="12.7" length="middle" rot="R180"/>
-<pin name="P0_4" x="38.1" y="15.24" length="middle" rot="R180"/>
-<pin name="P0_3" x="38.1" y="17.78" length="middle" rot="R180"/>
-<pin name="P0_2" x="38.1" y="20.32" length="middle" rot="R180"/>
-<pin name="P0_1" x="38.1" y="22.86" length="middle" rot="R180"/>
-<pin name="P0_0" x="38.1" y="25.4" length="middle" rot="R180"/>
-<pin name="RESET" x="38.1" y="27.94" length="middle" rot="R180"/>
-<pin name="P$17" x="38.1" y="30.48" length="middle" rot="R180"/>
-<pin name="P1_5" x="-5.08" y="10.16" length="middle"/>
-<pin name="USB-" x="-5.08" y="12.7" length="middle"/>
-<pin name="USB+" x="-5.08" y="15.24" length="middle"/>
-<pin name="GND@2" x="-5.08" y="17.78" length="middle"/>
-<pin name="VDD_USB" x="-5.08" y="20.32" length="middle"/>
-<pin name="P1_6" x="-5.08" y="22.86" length="middle"/>
-<pin name="P1_7" x="-5.08" y="25.4" length="middle"/>
-<pin name="P2_0" x="-5.08" y="27.94" length="middle"/>
-<pin name="P2_1" x="-5.08" y="30.48" length="middle"/>
-<pin name="P2_2" x="-5.08" y="33.02" length="middle"/>
-<pin name="AVDD@2" x="-5.08" y="35.56" length="middle"/>
-<pin name="AVDD@1" x="-5.08" y="38.1" length="middle"/>
-<pin name="GND@1" x="-5.08" y="40.64" length="middle"/>
-<text x="10.16" y="22.86" size="1.27" layer="94">BLE113</text>
-<text x="10.16" y="25.4" size="1.27" layer="95">BLE112</text>
-<rectangle x1="0" y1="0" x2="33.02" y2="43.18" layer="94"/>
+<pin name="P1_4" x="-20.32" y="-15.24" length="middle"/>
+<pin name="P1_3" x="-20.32" y="-17.78" length="middle"/>
+<pin name="P1_2" x="20.32" y="-17.78" length="middle" rot="R180"/>
+<pin name="P1_1" x="20.32" y="-15.24" length="middle" rot="R180"/>
+<pin name="P1_0" x="20.32" y="-12.7" length="middle" rot="R180"/>
+<pin name="P0_7" x="20.32" y="-10.16" length="middle" rot="R180"/>
+<pin name="DVDD" x="20.32" y="-7.62" length="middle" rot="R180"/>
+<pin name="GND@3" x="20.32" y="-5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="P0_6" x="20.32" y="-2.54" length="middle" rot="R180"/>
+<pin name="P0_5" x="20.32" y="0" length="middle" rot="R180"/>
+<pin name="P0_4" x="20.32" y="2.54" length="middle" rot="R180"/>
+<pin name="P0_3" x="20.32" y="5.08" length="middle" rot="R180"/>
+<pin name="P0_2" x="20.32" y="7.62" length="middle" rot="R180"/>
+<pin name="P0_1" x="20.32" y="10.16" length="middle" rot="R180"/>
+<pin name="P0_0" x="20.32" y="12.7" length="middle" rot="R180"/>
+<pin name="RESET" x="20.32" y="15.24" length="middle" direction="in" rot="R180"/>
+<pin name="P$17" x="20.32" y="17.78" length="middle" rot="R180"/>
+<pin name="P1_5" x="-20.32" y="-12.7" length="middle"/>
+<pin name="USB-" x="-20.32" y="-10.16" length="middle"/>
+<pin name="USB+" x="-20.32" y="-7.62" length="middle"/>
+<pin name="GND@2" x="-20.32" y="-5.08" length="middle" direction="pwr"/>
+<pin name="VDD_USB" x="-20.32" y="-2.54" length="middle" direction="pwr"/>
+<pin name="P1_6" x="-20.32" y="0" length="middle"/>
+<pin name="P1_7" x="-20.32" y="2.54" length="middle"/>
+<pin name="P2_0" x="-20.32" y="5.08" length="middle"/>
+<pin name="P2_1" x="-20.32" y="7.62" length="middle"/>
+<pin name="P2_2" x="-20.32" y="10.16" length="middle"/>
+<pin name="AVDD@2" x="-20.32" y="12.7" length="middle"/>
+<pin name="AVDD@1" x="-20.32" y="15.24" length="middle"/>
+<pin name="GND@1" x="-20.32" y="17.78" length="middle" direction="pwr"/>
+<text x="-1.27" y="21.082" size="1.27" layer="95">BLE112</text>
+<polygon width="0.254" layer="94" pour="cutout">
+<vertex x="-15.24" y="-20.32"/>
+<vertex x="-15.24" y="20.32"/>
+<vertex x="15.24" y="20.32"/>
+<vertex x="15.24" y="-20.32"/>
+</polygon>
 </symbol>
 </symbols>
 <devicesets>
